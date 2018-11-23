@@ -1,14 +1,87 @@
-<style>
-
-body {
-  background-color: #FF5F00;
-  font-size: 1rem;
+body
+{
+		background-color: #FF5F00;
+		font-size:1.2rem;
+		font-family: Verdana;
 }
 
-@media screen and (min-width: 480px) {
-  body {
-  background-color: #0082D1;
-  font-size: 1.2rem;
-  }
+
+#oben
+{
+	background-color: #3C5EE4;
 }
-</style>
+
+#links
+{
+	background-color: #A6C2EE;
+	color: #FFFFFF;
+}
+
+
+#mitte
+{
+	background-color: #1D57B4;
+	color: #FFFFFF;
+}
+
+
+#rechts
+{
+	background-color: #18852E;
+	color: #FFFFFF;
+}
+
+#unten
+{
+	background-color: #3C5EE4;
+}
+
+@media screen and (min-width: 720px)
+{
+	body
+	{
+		background-color: #0082D1;
+		font-size:1.2rem;
+		font-family: Verdana;
+	}
+
+
+	.flex-container
+	{
+		display: flex;
+
+	}
+
+	#oben
+	{
+		background-color: #9FECAF;
+	}
+
+	#links
+	{
+		background-color: #1DD761;
+		color: #FFFFFF;
+		flex: 1;
+	}
+
+
+	#mitte
+	{
+		background-color: green;
+		color: #FFFFFF;
+		flex: 4;
+	}
+
+
+	#rechts
+	{
+		background-color: #18852E;
+		color: #FFFFFF;
+		flex: 2;
+	}
+
+	#unten
+	{
+		background-color: #9FECAF;
+	}
+}
