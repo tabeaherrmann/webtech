@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <?php
+  function zufZahl($max, $anzahl)
+  {
+    for($i=1; $i<=$anzahl; $i++)
+    {
+      $zzahl = rand(1,$max);
+      $gerundet2 = abschneiden($zzahl,2);
+      $gerundet3 = abschneiden($zzahl,3);
+      echo "$zzahl $gerundet2 $gerundet3 <br/>";
+    }
+  }
+  ?>
+
+  <? php
+  function abschneiden ($zahl, $stellen=2)
+  {
+    $base = pow(10, $stellen);
+    return $zahl - ($zahl % $base);
+  }
+  ?>
+</head>
+<body>
+  <header>
+    <h1>Zufallszahlen</h1>
+  </header>
+  <div>
+    <? php zufZahl(20000, 20) ?>
+  </div>
+  <footer>Aufgabe 5</footer>
+</body>
+</html>
