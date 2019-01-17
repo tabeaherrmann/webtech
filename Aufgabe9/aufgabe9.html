@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <link href="styles.css" rel="stylesheet">
+  <title>Mausereignisse behandeln mit JavaScript</title>
+</head>
+
+<body>
+
+  <h1>Mausereignisse behandeln mit JavaScript<h1>
+
+  <div id="TabeasDiv">
+    <script>
+      click = "document.getElementById('TabeasDiv').style.backgroundColor = 'green'";
+
+      ondbclick = "document.getElementById('TabeasDiv').innerHTML = 'Doppelclick'";
+
+      onmouseenter = "MouseOver(this)";
+
+              onmouseleave = "MouseLeave(this)";
+    </script>
+
+    <script>
+
+      function MouseOver(obj) {
+        obj.style.width = "300px";
+        obj.style.height = "300px";
+      }
+
+      function MouseLeave(obj) {
+        obj.style.width = "200px";
+        obj.style.height = "200px";
+      }
+    </script>
+
+  </div>
+
+    <h2>Tastaturereignisse behandeln mit JavaScript</h2>
+
+    <input type="text" id="eingabe">
+
+    <script>
+
+      onfocus = "document.getElementById('eingabe').style.backgroundColor = 'lightblue'";
+
+      onblur = "document.getElementById('eingabe').style.backgroundcolor = 'white'";
+    </script>
+
+
+</body>
+</html>
