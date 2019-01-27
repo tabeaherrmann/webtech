@@ -56,6 +56,7 @@
   <div>
     <? php zufZahl(200000, 20) ?>
   </div>
-  <footer>Aufgabe 5</footer>
+  <footer>
+  <a href="../Startseite/startseite.html">Zur Startseite <a/></footer>
 </body>
 </html>

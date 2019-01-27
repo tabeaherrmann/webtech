@@ -80,4 +80,8 @@ if (! $file) {
 }
 ?>
 </body>
+
+<footer>
+  <a href="../Startseite/startseite.html">Zur Startseite <a/>
+</footer>
 </html>

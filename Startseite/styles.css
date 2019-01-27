@@ -1,3 +1,5 @@
+<style>
+
 header {
   background-color: coral;
   color: darkgrey;
@@ -5,4 +7,8 @@ header {
 
 footer {
   background-color: darkgrey;
+  position: sticky;
 }
+
+
+</style>
